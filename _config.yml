@@ -125,6 +125,10 @@ archive_generator:
   monthly: false
   daily: false
 
+image_caption:
+  enable: true #false to disable
+  class_name: #if you wanna customize the style for the caption,you can assign a class name, default is 'image-caption'
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
